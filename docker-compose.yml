@@ -1,0 +1,8 @@
+slate:
+    build: .
+    ports:
+      - 4567:4567
+    volumes:
+      - ./source:/srv/slate/source
+      - ./build:/srv/slate/build
+    
